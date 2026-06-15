@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Sirukota';
+    src: url('fonte/Sirukota.ttf') format('truetype');
+}
+
+body{
+    background: #7e7f9a;
+    font-family: arial;
+}
+
+#header{
+    height: 100px;
+    margin: 0px auto; /*centraliza o header*/
+    background: #272838;    
+}
+
+#header h1{
+    display: block; /*bloqueia linha*/
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: 'Sirukota';
+    -webkit-text-stroke: 0.5px #000000;/*Borda */   
+    color: #e34a6f
+}
+
+#nav{
+    list-style: none; /*retira marcadores*/
+    padding-left: 0px;
+    display: block;
+    float: right;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-right: 50px;   
+}
+
+#nav li{
+    float: left;
+    margin-left: 30px;
+}
+
+#nav a{
+    text-decoration: none; /*retira o sublinhado dos links*/
+    text-transform: uppercase;
+    padding-top: 0px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Sirukota';
+}
+
+#nav a:hover{
+    border-bottom: 5px solid #e34a6f;
+}
+
+ul#nav a.ativa{
+    border-bottom: 5px solid #e34a6f;
+}
+
+/*Galeria*/
+#img1{
+    margin-left: 100px;
+    float: left;
+}
+
+#img2{
+    margin-left: 1000px;
+    margin-right: 100px;
+    float: center;
+}
+
+/*Páginas especificacoes e galeria*/
+#texto{
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+/*Páginas index e impactos, para separar o texto*/
+.texto{
+    width: 600px;
+    float: left;
+    margin: 5px 8px;
+}
+
+.text2{
+    width: 600px;
+    float: right;
+    margin: 5px 8px;
+}
+
+/*créditos*/
+
+#text{
+    margin-left: 50px;
+    color: #7e7f9a;
+}
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+    background: #272838;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*footer geral*/
+#footer{
+    width: 1200px;
+    float: left;
+    margin: 0px auto;
+    padding-top: 25px;
+    
+}
+
+#footer h5{
+    font-size: 12px;
+    text-align: center;
+}
